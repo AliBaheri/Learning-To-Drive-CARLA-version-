@@ -565,6 +565,6 @@ if __name__ == "__main__":
             if ENV_CONFIG["discrete_actions"]:
                 obs, reward, done, info = env.step(3)  # Go Forward
             else:
-                obs, reward, done, info = env.step([0.6, 0.5])  # Full throttle, zero steering angle
+                obs, reward, done, info = env.step([1.0, 0.0])  # Full throttle, zero steering angle
             total_reward += reward
             print("step#:", t, "reward:", round(reward, 4), "total_reward:", round(total_reward, 4), "done:", done)
