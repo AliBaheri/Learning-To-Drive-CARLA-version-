@@ -6,13 +6,11 @@ Chapter 7, Hands-on Intelligent Agents with OpenAI Gym, 2018| Praveen Palanisamy
 """
 
 """
-Modified orignal CARLA_gym wrapper with VAE.
-
+Modified original CARLA_gym wrapper with VAE.
 The gaol is:
  - Utilize z as the latent representation
  - Store raw images in VAE buffer
- 
-Ali Baheri
+ Ali Baheri
 """
 
 from __future__ import absolute_import
